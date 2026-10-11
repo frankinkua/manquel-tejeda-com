@@ -43,7 +43,7 @@
       "rights_status": "reference_only",
       "rights_evidence": "Automated access blocked by LinkedIn anti-bot measures.",
       "caption": "LinkedIn profile for Manquel Tejeda",
-      "identity_evidence": "URL matches requested profile, but content could not be retrieved."
+      "identity_evidence": "URL matches requested profile, but content could not be retrieved. Date reflects access attempt."
     },
     {
       "id": "item-3",
@@ -61,7 +61,7 @@
       "rights_status": "reference_only",
       "rights_evidence": "Automated access blocked by LinkedIn anti-bot measures.",
       "caption": "Secondary LinkedIn profile for Manquel Tejeda",
-      "identity_evidence": "URL matches requested profile, but content could not be retrieved."
+      "identity_evidence": "URL matches requested profile, but content could not be retrieved. Date reflects access attempt."
     }
   ]
 }

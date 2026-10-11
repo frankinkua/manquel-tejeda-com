@@ -31,16 +31,24 @@
   "entrepreneurship": [
     "entrepreneurship",
     "unternehmertum",
-    "emprendimiento",
+    "emprendimiento"
+  ],
+  "founder": [
     "founder",
     "gründer",
-    "fundador",
+    "fundador"
+  ],
+  "startup": [
     "startup",
     "start-up"
   ],
-  "project_names": [
-    "1a robotics",
-    "hope printer",
+  "hope_printer": [
+    "hope printer"
+  ],
+  "1a_robotics": [
+    "1a robotics"
+  ],
+  "energyfromyourbalcony": [
     "energyfromyourbalcony"
   ]
 }
