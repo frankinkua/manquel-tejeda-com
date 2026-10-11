@@ -27,7 +27,9 @@
       crossorigin
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
     <script src="site.js" defer></script>
+    <script src="media.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -47,7 +49,7 @@
         </button>
         <nav id="navigation" aria-label="Main navigation">
           <a href="#work">Selected work</a><a href="#about">About</a
-          ><a href="#journal">In conversation</a
+          ><a href="#media">Stories &amp; media</a
           ><a class="nav-contact" href="#contact"
             >Let’s connect <span aria-hidden="true">↗</span></a
           >
@@ -318,12 +320,123 @@
       </section>
 
       <section
+        class="media-section shell section-space"
+        id="media"
+        aria-labelledby="media-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">04 / The public record</p>
+            <h2 id="media-title">
+              The person. The projects.<br /><em>The original sources.</em>
+            </h2>
+          </div>
+          <p class="section-intro">
+            A small, carefully identified collection of interviews, professional
+            profiles and project references.
+          </p>
+        </div>
+        <div class="media-tools">
+          <label for="media-search"
+            >Find a topic
+            <input
+              id="media-search"
+              type="search"
+              placeholder="Try: solar, robotics, founder…"
+              autocomplete="off"
+          /></label>
+          <div class="filters" role="group" aria-label="Filter media">
+            <button data-filter="all" aria-pressed="true">All</button
+            ><button data-filter="portrait" aria-pressed="false">People</button
+            ><button data-filter="energy" aria-pressed="false">Energy</button
+            ><button data-filter="robotics" aria-pressed="false">
+              Robotics
+            </button>
+          </div>
+        </div>
+        <p class="result-count" role="status" aria-live="polite"></p>
+        <div class="media-grid">
+          <article
+            class="media-card"
+            data-tags="portrait press robotics entrepreneurship"
+          >
+            <a
+              class="media-cover interview-cover"
+              href="https://medium.com/frankfurtvalley/meet-a-founder-manquel-tejeda-237bc4fca36f"
+              ><span>FRANKFURT VALLEY / JANUARY 2021</span
+              ><strong
+                >The people<br />behind<br /><em>the prototype.</em></strong
+              ><span>VIEW THE PHOTO &amp; INTERVIEW ↗</span></a
+            >
+            <div>
+              <p class="eyebrow">Portrait &amp; founder interview</p>
+              <h3>Manquel, with Hope Printer.</h3>
+              <p>
+                The original feature includes a photograph of the team at work.
+                See the people, and hear the founder’s perspective, at the
+                source.
+              </p>
+              <span class="media-tags"
+                >Portrait · Robotics · Entrepreneurship</span
+              >
+            </div>
+          </article>
+          <article class="media-card" data-tags="energy entrepreneurship">
+            <a
+              class="media-cover energy-cover"
+              href="https://de.linkedin.com/in/manquel-tejeda-b42b39119"
+              ><span>PROFESSIONAL PROFILE</span
+              ><strong>Everyday spaces.<br /><em>New energy.</em></strong
+              ><span>ENERGYFROMYOURBALCONY ↗</span></a
+            >
+            <div>
+              <p class="eyebrow">Energy / Public profile</p>
+              <h3>Energy, closer to home.</h3>
+              <p>
+                The professional profile connecting Manquel with
+                EnergyFromYourBalcony in Frankfurt.
+              </p>
+              <span class="media-tags">Energy · Solar · Entrepreneurship</span>
+            </div>
+          </article>
+          <article
+            class="media-card"
+            data-tags="robotics medtech entrepreneurship"
+          >
+            <a
+              class="media-cover robotics-cover"
+              href="https://connectpreneur.org/wp-content/uploads/2024/07/bicp_2024_mar_2.pdf"
+              ><span>CONNECTPRENEUR / MARCH 2024</span
+              ><strong>Ideas need<br /><em>connections.</em></strong
+              ><span>VIEW THE EVENT PROGRAMME · PDF ↗</span></a
+            >
+            <div>
+              <p class="eyebrow">Event / Public record</p>
+              <h3>Robotics, in the ecosystem.</h3>
+              <p>
+                A programme listing Manquel as co-founder of 1A Robotics. A
+                dated reference, not a current product specification.
+              </p>
+              <span class="media-tags">Robotics · Entrepreneurship</span>
+            </div>
+          </article>
+        </div>
+        <p class="no-results" hidden>
+          No matching items. Try “energy”, “robotics” or “portrait”.
+        </p>
+        <p class="media-catalogue-link">
+          <a href="inbox/media/catalog.json"
+            >Explore the source and rights catalogue ↗</a
+          >
+        </p>
+      </section>
+      <section
         class="contact-section"
         id="contact"
         aria-labelledby="contact-title"
       >
         <div class="shell contact-inner">
-          <p class="eyebrow">04 / Start a conversation</p>
+          <p class="eyebrow">05 / Start a conversation</p>
           <h2 id="contact-title">
             Good things begin<br />with <em>a hello.</em>
           </h2>
