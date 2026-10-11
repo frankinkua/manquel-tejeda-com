@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "subject": "Manquel Tejeda",
+  "reviewed_at": "2026-10-11",
+  "rights_note": "Photograph found and catalogued, but not republished: no explicit reuse permission found in the original article. Article author avatar is not Manquel. Photos never receive invented open licenses.",
+  "tag_aliases": "tag-aliases.json",
+  "items": [
+    {
+      "id": "manquel-hope-printer-photo",
+      "type": "image",
+      "title": "Founder interview lead photograph — Manquel and Hope Printer team",
+      "source_url": "https://medium.com/frankfurtvalley/meet-a-founder-manquel-tejeda-237bc4fca36f",
+      "asset_url": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*pyg4_Y2_GYEEAl42Z-MXzw.png",
+      "local_path": null,
+      "rights_status": "reference_only",
+      "rights_evidence": "Public interview image, no explicit reuse license found. Local research copy is excluded from the repository and site.",
+      "identity_evidence": "Lead photograph in the original interview explicitly about Manquel and Hope Printer; not the article author avatar.",
+      "publisher": "Frankfurt Valley / Medium",
+      "author": "Pedro Gonçalo Ferreira",
+      "published_at": "2021-01-08",
+      "retrieved_at": "2026-10-11",
+      "tags": [
+        "portrait",
+        "press",
+        "robotics",
+        "entrepreneurship"
+      ],
+      "related_tags": [
+        "3d-printing",
+        "housing"
+      ],
+      "needs": "Explicit permission or owner-supplied publishable portrait before rehosting."
+    },
+    {
+      "id": "manquel-energy",
+      "type": "website",
+      "title": "EnergyFromYourBalcony professional profile",
+      "source_url": "https://de.linkedin.com/in/manquel-tejeda-b42b39119",
+      "local_path": null,
+      "rights_status": "reference_only",
+      "rights_evidence": "Link to public professional profile; no profile photograph copied.",
+      "identity_evidence": "User-supplied profile explicitly names Manquel Tejeda.",
+      "retrieved_at": "2026-10-11",
+      "tags": [
+        "energy",
+        "entrepreneurship"
+      ],
+      "related_tags": [
+        "solar"
+      ]
+    },
+    {
+      "id": "manquel-robotics",
+      "type": "document",
+      "title": "CONNECTpreneur March 2024 programme",
+      "source_url": "https://connectpreneur.org/wp-content/uploads/2024/07/bicp_2024_mar_2.pdf",
+      "local_path": null,
+      "rights_status": "reference_only",
+      "rights_evidence": "Document linked, not copied.",
+      "identity_evidence": "Page26 lists Manquel Tejeda as co-founder of1A Robotics.",
+      "published_at": "2024-03",
+      "retrieved_at": "2026-10-11",
+      "tags": [
+        "robotics",
+        "entrepreneurship"
+      ],
+      "related_tags": [
+        "medtech"
+      ]
+    },
+    {
+      "id": "manquel-medtech",
+      "type": "website",
+      "title": "Robotics and MedTech professional profile",
+      "source_url": "https://de.linkedin.com/in/manquel-tejeda-86104738",
+      "local_path": null,
+      "rights_status": "reference_only",
+      "rights_evidence": "Public profile reference, no photo copied.",
+      "identity_evidence": "User-supplied professional profile, correctTejeda spelling.",
+      "retrieved_at": "2026-10-11",
+      "tags": [
+        "robotics",
+        "medtech",
+        "entrepreneurship"
+      ],
+      "related_tags": []
+    }
+  ]
+}
