@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-11T21:46:00Z",
+  "subject": "Test",
+  "search_queries": [],
+  "items": [
+    {
+      "id": "item-1",
+      "type": "image",
+      "title": "Title 1",
+      "source_url": "https://example.com",
+      "asset_url": "https://example.com/asset.png",
+      "local_path": "path/to/local/file.png",
+      "person": "Test",
+      "tags": [],
+      "related_tags": [],
+      "publisher": "Test",
+      "date": "2021-01-08",
+      "retrieved_at": "2026-10-11",
+      "rights_status": "reference_only",
+      "rights_evidence": "Test",
+      "caption": "Test",
+      "identity_evidence": "Test"
+    }
+  ]
+}

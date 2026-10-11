@@ -1,26 +1,26 @@
 {
   "energy": [
     "solar",
-    "balcony solar",
-    "balkonkraftwerk",
     "solar energy",
     "energía solar",
     "energia solar",
-    "balkon",
-    "balcony"
+    "balkonkraftwerk",
+    "balcony solar"
   ],
   "robotics": [
-    "3d printing",
-    "3d-druck",
-    "impresión 3d",
-    "housing",
-    "wohnen",
-    "vivienda",
     "robotics",
     "robotik",
-    "robótica",
-    "1a robotics",
-    "hope printer"
+    "robótica"
+  ],
+  "3d_printing": [
+    "3d printing",
+    "3d-druck",
+    "impresión 3d"
+  ],
+  "housing": [
+    "housing",
+    "wohnen",
+    "vivienda"
   ],
   "medtech": [
     "medtech",
@@ -37,5 +37,10 @@
     "fundador",
     "startup",
     "start-up"
+  ],
+  "project_names": [
+    "1a robotics",
+    "hope printer",
+    "energyfromyourbalcony"
   ]
 }

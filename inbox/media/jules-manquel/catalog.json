@@ -22,13 +22,46 @@
       "publisher": "Medium / Frankfurt Valley",
       "date": "2021-01-08",
       "retrieved_at": "2026-10-11",
-      "rights_status": "unclear / ALL_RIGHTS_RESERVED",
-      "rights_evidence": "The medium_archive.html state 'license':'ALL_RIGHTS_RESERVED'. It was not saved publicly because permissions are unclear.",
+      "rights_status": "reference_only",
+      "rights_evidence": "Source URL https://medium.com/frankfurtvalley/meet-a-founder-manquel-tejeda-237bc4fca36f declares 'ALL_RIGHTS_RESERVED'. No explicit reuse permission found.",
       "caption": "Meet a Founder: Manquel Tejeda",
       "identity_evidence": "Visible hero image from original Medium article shows Hope Printer team, Manquel at front smiling with glasses."
+    },
+    {
+      "id": "item-2",
+      "type": "source_gap",
+      "title": "LinkedIn Profile Manquel Tejeda (b42b39119)",
+      "source_url": "https://de.linkedin.com/in/manquel-tejeda-b42b39119",
+      "asset_url": null,
+      "local_path": null,
+      "person": "Manquel Tejeda",
+      "tags": ["manquel-tejeda", "linkedin", "profile"],
+      "related_tags": ["entrepreneurship"],
+      "publisher": "LinkedIn",
+      "date": "2026-10-11",
+      "retrieved_at": "2026-10-11",
+      "rights_status": "reference_only",
+      "rights_evidence": "Automated access blocked by LinkedIn anti-bot measures.",
+      "caption": "LinkedIn profile for Manquel Tejeda",
+      "identity_evidence": "URL matches requested profile, but content could not be retrieved."
+    },
+    {
+      "id": "item-3",
+      "type": "source_gap",
+      "title": "LinkedIn Profile Manquel Tejeda (86104738)",
+      "source_url": "https://de.linkedin.com/in/manquel-tejeda-86104738",
+      "asset_url": null,
+      "local_path": null,
+      "person": "Manquel Tejeda",
+      "tags": ["manquel-tejeda", "linkedin", "profile"],
+      "related_tags": ["entrepreneurship"],
+      "publisher": "LinkedIn",
+      "date": "2026-10-11",
+      "retrieved_at": "2026-10-11",
+      "rights_status": "reference_only",
+      "rights_evidence": "Automated access blocked by LinkedIn anti-bot measures.",
+      "caption": "Secondary LinkedIn profile for Manquel Tejeda",
+      "identity_evidence": "URL matches requested profile, but content could not be retrieved."
     }
-  ],
-  "missing_media_notes": [
-    "Other sources such as LinkedIn and individual project sites blocked automated access or failed to load. Medium author Pedro Ferreira avatar was explicitly avoided."
   ]
 }
