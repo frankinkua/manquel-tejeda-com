@@ -2,6 +2,11 @@
 
 Personal website and source-linked public profile for Manquel Tejeda.
 
+Public site: https://frankinkua.github.io/manquel-tejeda-com/
+
+GitHub Pages publishes the repository root from `main`. The `.nojekyll`
+marker preserves the static files and the Markdown source-link fallback.
+
 An editorial-style, responsive portfolio built with plain HTML, CSS, and a
 small progressive-enhancement script. No build step, runtime dependencies,
 analytics, or externally hosted assets are required.
