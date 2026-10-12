@@ -95,6 +95,12 @@ if (typeof document !== "undefined") {
       if (empty) empty.hidden = count !== 0;
     };
     search.addEventListener("input", render);
+    search.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && search.value) {
+        search.value = "";
+        render();
+      }
+    });
     filters.forEach((button) =>
       button.addEventListener("click", () => {
         filter = button.dataset.filter;
