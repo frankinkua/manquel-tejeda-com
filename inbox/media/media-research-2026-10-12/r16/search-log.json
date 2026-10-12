@@ -1,0 +1,93 @@
+[
+  {
+    "query_or_tool": "DuckDuckGo HTML search for 'Manquel Tejeda' 'EnergyFromYourBalcony'",
+    "url": "https://html.duckduckgo.com/html/?q=%22Manquel+Tejeda%22+%22EnergyFromYourBalcony%22",
+    "access_time": "2026-10-12T07:00:30.079087+00:00",
+    "outcome": "blocked",
+    "rejection_reason": "Search engine blocked automated query, requiring form submission challenge."
+  },
+  {
+    "query_or_tool": "DuckDuckGo HTML search for 'EnergyFromYourBalcony'",
+    "url": "https://html.duckduckgo.com/html/?q=EnergyFromYourBalcony",
+    "access_time": "2026-10-12T07:00:30.079105+00:00",
+    "outcome": "success",
+    "rejection_reason": "Retrieved search results for EnergyFromYourBalcony."
+  },
+  {
+    "query_or_tool": "DuckDuckGo HTML search for 'Manquel Tejeda' Energy",
+    "url": "https://html.duckduckgo.com/html/?q=%22Manquel%22+Tejeda+Energy",
+    "access_time": "2026-10-12T07:00:30.079110+00:00",
+    "outcome": "success",
+    "rejection_reason": "Retrieved search results but no clear energy/balcony specific items besides LinkedIn profiles."
+  },
+  {
+    "query_or_tool": "Direct access to LinkedIn profile",
+    "url": "https://de.linkedin.com/in/manquel-tejeda-b42b39119",
+    "access_time": "2026-10-12T07:00:30.079113+00:00",
+    "outcome": "blocked",
+    "rejection_reason": "LinkedIn blocks automated scraping and returns REJECTED_CLIENT_CAPABILITY."
+  },
+  {
+    "query_or_tool": "Direct access to LinkedIn post",
+    "url": "https://rs.linkedin.com/posts/manquel-tejeda-86104738_part-1-i-dont-post-very-often-but-because-activity-7043381259917520896-iUXg",
+    "access_time": "2026-10-12T07:00:30.079116+00:00",
+    "outcome": "blocked",
+    "rejection_reason": "LinkedIn blocks automated scraping."
+  },
+  {
+    "query_or_tool": "Wayback Machine CDX search for LinkedIn profile",
+    "url": "http://web.archive.org/cdx/search/cdx?url=https://de.linkedin.com/in/manquel-tejeda-b42b39119&output=json",
+    "access_time": "2026-10-12T07:00:30.079120+00:00",
+    "outcome": "unavailable",
+    "rejection_reason": "No archived captures found for the LinkedIn profile URL."
+  },
+  {
+    "query_or_tool": "Wayback Machine CDX search for LinkedIn post",
+    "url": "http://web.archive.org/cdx/search/cdx?url=https://rs.linkedin.com/posts/manquel-tejeda-86104738_part-1-i-dont-post-very-often-but-because-activity-7043381259917520896-iUXg&output=json",
+    "access_time": "2026-10-12T07:00:30.079123+00:00",
+    "outcome": "unavailable",
+    "rejection_reason": "No archived captures found."
+  },
+  {
+    "query_or_tool": "Direct access to LaunchRock site",
+    "url": "http://energy-from-your-balcony.launchrock.com/",
+    "access_time": "2026-10-12T07:00:30.079126+00:00",
+    "outcome": "success",
+    "rejection_reason": "Verified site exists as a waitlist page but does not contain Manquel Tejeda's name or media."
+  },
+  {
+    "query_or_tool": "Wayback Machine CDX search for LaunchRock site",
+    "url": "http://web.archive.org/cdx/search/cdx?url=http://energy-from-your-balcony.launchrock.com/&output=json",
+    "access_time": "2026-10-12T07:00:30.079128+00:00",
+    "outcome": "blocked",
+    "rejection_reason": "Wayback machine API endpoint temporarily offline."
+  },
+  {
+    "query_or_tool": "Direct access to YouTube Video 1",
+    "url": "https://www.youtube.com/watch?v=PWpsw9q-bLw",
+    "access_time": "2026-10-12T07:00:30.079131+00:00",
+    "outcome": "wrong-person",
+    "rejection_reason": "Video is by 'The Electric Viking', not Manquel Tejeda."
+  },
+  {
+    "query_or_tool": "Direct access to YouTube Video 2",
+    "url": "https://www.youtube.com/watch?v=XLtXSNNqgMQ",
+    "access_time": "2026-10-12T07:00:30.079134+00:00",
+    "outcome": "wrong-person",
+    "rejection_reason": "Video is by 'Prof Simon - Science Filmmaker', not Manquel Tejeda."
+  },
+  {
+    "query_or_tool": "Direct access to Medium article",
+    "url": "https://medium.com/frankfurtvalley/meet-a-founder-manquel-tejeda-237bc4fca36f",
+    "access_time": "2026-10-12T07:00:30.079140+00:00",
+    "outcome": "blocked",
+    "rejection_reason": "Medium returns HTTP 403 Forbidden for automated access."
+  },
+  {
+    "query_or_tool": "Wayback Machine access to Medium article",
+    "url": "http://web.archive.org/web/20210108175511/https://medium.com/frankfurtvalley/meet-a-founder-manquel-tejeda-237bc4fca36f",
+    "access_time": "2026-10-12T07:00:30.079146+00:00",
+    "outcome": "success",
+    "rejection_reason": "Article text retrieved from archive, but neither 'energy' nor 'balcony' are mentioned."
+  }
+]
