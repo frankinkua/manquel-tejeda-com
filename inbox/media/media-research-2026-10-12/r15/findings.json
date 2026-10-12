@@ -129,7 +129,10 @@
       "rights_status": "unknown",
       "rights_evidence_url": null,
       "local_path": null,
-      "duplicate_of": null
+      "duplicate_of": null,
+      "delivery_status": "permission_pending",
+      "blocker": "No explicit reuse permission or press kit terms found in the archived project site or other sources. Asset remains hosted remotely.",
+      "next_action": "Owner must provide explicit permission or confirm open license status for these specific images before local download and republishing."
     },
     {
       "id": "hope-printer-banner",
@@ -153,7 +156,10 @@
       "rights_status": "unknown",
       "rights_evidence_url": null,
       "local_path": null,
-      "duplicate_of": null
+      "duplicate_of": null,
+      "delivery_status": "permission_pending",
+      "blocker": "No explicit reuse permission or press kit terms found in the archived project site or other sources. Asset remains hosted remotely.",
+      "next_action": "Owner must provide explicit permission or confirm open license status for these specific images before local download and republishing."
     },
     {
       "id": "hope-printer-prize",
@@ -177,7 +183,10 @@
       "rights_status": "unknown",
       "rights_evidence_url": null,
       "local_path": null,
-      "duplicate_of": null
+      "duplicate_of": null,
+      "delivery_status": "permission_pending",
+      "blocker": "No explicit reuse permission or press kit terms found in the archived project site or other sources. Asset remains hosted remotely.",
+      "next_action": "Owner must provide explicit permission or confirm open license status for these specific images before local download and republishing."
     }
   ]
 }

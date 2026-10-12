@@ -17,6 +17,12 @@ This packet documents original project media for Hope Printer as well as the his
 | Image | Hope Printer Banner | Image lead found in the archived HTML representing the prototype/banner. | Unknown (Needs Permission) |
 | Image | Climate Launchpad Philippines Prize Lead | Image lead found in the archived HTML representing the CLP prize. | Unknown (Needs Permission) |
 
+## Delivery Stages & Website Approval
+
+* **Discovery:** Three original concrete visual leads (Logo, Banner, and CLP Prize) were found within the archived HTML of the official project site. Three project videos were discovered via YouTube iframe embeds.
+* **Binary Delivery (Downloads):** Zero images or videos have been downloaded. The lack of an explicit open license, press kit, or stated permission on the abandoned domain acts as a blocker. We cannot conflate the presence of an image in an archive with the legal right to reuse it.
+* **Website Approval:** Incorporating these assets into the live personal site requires external references (pending review), or the owner explicitly supplying permission/providing the licensed asset files. Unconditional iframes should be avoided pending verification.
+
 ## Proposed Website Uses
 
 These references can be surfaced on Manquel's personal website using external links in an expanded "Sources" section pending verification of the video contents. It is recommended to use external linking rather than unconditional iframes until explicit playback/content verification is established. The context of these links should retain the historical aspiration of the prototypes (e.g. 2021 context) and avoid making unsupported current product claims.
@@ -26,6 +32,7 @@ These references can be surfaced on Manquel's personal website using external li
 node --check site.js
 node --test tests/site.test.cjs
 git diff --check
+python3 -c "import json; json.load(open('inbox/media/media-research-2026-10-12/r15/asset-delivery.json'))"
 ```
 
 ## Limitations
