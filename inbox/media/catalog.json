@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "subject": "Manquel Tejeda",
-  "reviewed_at": "2026-10-11",
-  "rights_note": "Photograph found and catalogued, but not republished: no explicit reuse permission found in the original article. Article author avatar is not Manquel. Photos never receive invented open licenses.",
+  "reviewed_at": "2026-10-12",
+  "rights_note": "Photograph found and catalogued, but not republished: no explicit reuse permission found in the original article. Article author avatar is not Manquel. Photos never receive invented open licenses. Owner-supplied files are published only on the owner's explicit confirmation.",
   "tag_aliases": "tag-aliases.json",
   "items": [
     {
@@ -84,6 +84,44 @@
         "entrepreneurship"
       ],
       "related_tags": []
+    },
+    {
+      "id": "manquel-portrait-2025",
+      "type": "image",
+      "title": "Owner-supplied portrait of Manquel Tejeda (2025)",
+      "source_url": null,
+      "asset_url": "assets/manquel-portrait.jpg",
+      "local_path": "inbox/media/downloads/Foto_3 2025.jpg",
+      "rights_status": "owner_supplied",
+      "rights_evidence": "Owner confirmed 2026-10-12 that he holds the rights and agrees to publication on this site. Web copy resized to 1200px wide; original retained in inbox.",
+      "identity_evidence": "Owner-supplied file explicitly depicting the site subject; consistent with other owner-supplied portraits.",
+      "published_at": "2025",
+      "retrieved_at": "2026-10-12",
+      "tags": [
+        "portrait"
+      ],
+      "related_tags": []
+    },
+    {
+      "id": "hope-printer-team-photo",
+      "type": "image",
+      "title": "Hope Printer team with early prototype frame",
+      "source_url": null,
+      "asset_url": "assets/hope-printer-team.webp",
+      "local_path": "inbox/media/downloads/manquel_hope_printer.webp",
+      "rights_status": "owner_supplied",
+      "rights_evidence": "Owner (Hope Printer co-founder) confirmed 2026-10-12 that he holds the rights and agrees to publication on this site. Two additional team members appear; remove or crop on request.",
+      "identity_evidence": "Owner-supplied project photo; Hope Printer logo appears as corner overlay; subject identifiable consistent with portraits.",
+      "retrieved_at": "2026-10-12",
+      "tags": [
+        "portrait",
+        "robotics",
+        "entrepreneurship"
+      ],
+      "related_tags": [
+        "3d-printing",
+        "housing"
+      ]
     }
   ]
 }

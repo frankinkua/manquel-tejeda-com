@@ -50,6 +50,37 @@ profile rather than an invented email address.
   legal position.
 - Rights: source link only; no reproduced pages.
 
+## Owner-supplied media
+
+- `assets/manquel-portrait.jpg`
+  - Owner/supplier: Manquel Tejeda (site subject).
+  - Source file: `inbox/media/downloads/Foto_3 2025.jpg`, resized to
+    1200px wide for the web on 2026-10-12; original retained in inbox.
+  - Permission: owner confirmed 2026-10-12 that he holds the rights and
+    agrees to publication on this site.
+  - Used in: About section portrait.
+- `assets/hope-printer-team.webp`
+  - Owner/supplier: Manquel Tejeda (Hope Printer co-founder).
+  - Source file: `inbox/media/downloads/manquel_hope_printer.webp`,
+    copied unchanged on 2026-10-12.
+  - Permission: owner confirmed 2026-10-12 that he holds the rights and
+    agrees to publication on this site.
+  - Content: Manquel with the Hope Printer team beside an early prototype
+    frame; Hope Printer logo appears as a corner overlay in the image.
+  - Used in: Hope Printer project card, labelled as a project photo.
+  - Other people: two team members appear; published on the owner's
+    confirmation. Remove or crop on request.
+
+## Not published
+
+- Watermarked or generic stock found in `inbox/media/downloads/` was
+  deliberately excluded: `solar_house.jpg` (visible Unsplash+ watermark),
+  `solar_panels_field.jpg` and `robot_white_humanoid.jpg` (generic stock,
+  not the subject's ventures), the ten `picsum.photos` images in
+  `manifest.json` (unrelated stock), and `1A Robotics.png` (illegible
+  low-contrast mark). Personal leisure/travel snapshots were also excluded
+  as out of scope.
+
 ## Original design and licensed fonts
 
 - `assets/balcony.svg`, `assets/printed-house.svg`, `assets/favicon.svg`,

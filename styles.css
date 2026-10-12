@@ -581,6 +581,9 @@ em {
   height: 100%;
   object-fit: contain;
 }
+.hope-art img.hope-photo {
+  object-fit: cover;
+}
 .secondary-copy {
   padding: 29px 4px 0;
 }
@@ -689,6 +692,22 @@ em {
   font: 85px var(--sans);
   letter-spacing: 0;
   color: #809969;
+}
+.about-portrait {
+  margin: 0 0 26px;
+  max-width: 370px;
+}
+.about-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+.about-portrait figcaption {
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--muted);
 }
 .place-label {
   display: flex;
