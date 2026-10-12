@@ -1,0 +1,185 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="720"
+  height="740"
+  viewBox="0 0 720 740"
+  fill="none"
+>
+  <defs>
+    <linearGradient
+      id="bg"
+      x1="80"
+      y1="0"
+      x2="620"
+      y2="740"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#EAF0E0" />
+      <stop offset="1" stop-color="#DCE3D2" />
+    </linearGradient>
+    <linearGradient
+      id="wall"
+      x1="158"
+      y1="204"
+      x2="493"
+      y2="482"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#F9F5E8" />
+      <stop offset="1" stop-color="#D7D4BF" />
+    </linearGradient>
+    <linearGradient
+      id="side"
+      x1="495"
+      y1="196"
+      x2="635"
+      y2="482"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#CBCBB5" />
+      <stop offset="1" stop-color="#9BAA8B" />
+    </linearGradient>
+    <linearGradient
+      id="glass"
+      x1="200"
+      y1="210"
+      x2="387"
+      y2="447"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#8FAD98" />
+      <stop offset=".45" stop-color="#BDCCB4" />
+      <stop offset="1" stop-color="#486D54" />
+    </linearGradient>
+    <linearGradient id="cell" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#526F59" />
+      <stop offset="1" stop-color="#203F30" />
+    </linearGradient>
+    <linearGradient id="pot" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#C4BA95" />
+      <stop offset="1" stop-color="#8C9272" />
+    </linearGradient>
+    <pattern
+      id="solarCells"
+      width="40"
+      height="50"
+      patternUnits="userSpaceOnUse"
+    >
+      <rect x="2" y="2" width="36" height="46" rx="1" fill="url(#cell)" />
+      <path d="M14 2V48M26 2V48M2 25H38" stroke="#A7BA9460" stroke-width=".6" />
+    </pattern>
+    <filter id="shadow" x="-50%" y="-100%" width="200%" height="300%">
+      <feGaussianBlur stdDeviation="15" />
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" />
+    </filter>
+  </defs>
+  <circle cx="551" cy="168" r="69" fill="#F6F6DB" opacity=".8" />
+  <circle cx="551" cy="168" r="89" stroke="#B8C5A5" stroke-opacity=".4" />
+  <path
+    d="M-30 488L493 197L789 380M-72 529L490 216L810 402M43 632L589 329M91 658L638 355"
+    stroke="#BECBB020"
+  />
+  <ellipse
+    cx="369"
+    cy="550"
+    rx="201"
+    ry="25"
+    fill="#7C8C624D"
+    filter="url(#shadow)"
+    transform="rotate(-6 369 550)"
+  />
+  <!-- An imagined architectural model, not a representation of a specific product. -->
+  <path d="M168 174L305 102L614 221L477 296Z" fill="#F7F3E5" />
+  <path d="M477 296L614 221V462L477 542Z" fill="url(#side)" />
+  <path d="M168 174L477 296V542L168 420Z" fill="url(#wall)" />
+  <path d="M477 296L614 221V240L477 315Z" fill="#B1B79D" />
+  <path d="M168 174L477 296V315L168 193Z" fill="#FEFCF0" />
+  <path d="M168 174L305 102L614 221" stroke="#FEFCF0" stroke-width="3" />
+  <path d="M204 229L394 304V473L204 398Z" fill="#516E55" />
+  <path d="M212 241L386 309V459L212 390Z" fill="url(#glass)" />
+  <path d="M212 241L286 270V420L212 391Z" fill="#ABC4A7" opacity=".3" />
+  <path
+    d="M224 246L236 251V401L224 396ZM246 255L251 257V407L246 405Z"
+    fill="#E4EAD0"
+    opacity=".5"
+  />
+  <path d="M298 277V434M211 342L387 412" stroke="#3F5F47" stroke-width="6" />
+  <path d="M299 278V434" stroke="#ADBA9C" stroke-width="1" />
+  <path
+    d="M307 351V370"
+    stroke="#E7E3CC"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+  <path d="M514 312L579 276V382L514 419Z" fill="#789177" />
+  <path d="M519 317L574 286V376L519 407Z" fill="#BAC9AB" />
+  <path d="M547 301V393" stroke="#526F53" stroke-width="4" />
+  <path d="M167 414L477 536L587 474L276 352Z" fill="#D6D7BE" opacity=".5" />
+  <path d="M124 429L450 558L501 529L175 400Z" fill="#F0EBDC" />
+  <path d="M124 429V446L450 575V558Z" fill="#C7C9AD" />
+  <path d="M450 558L501 529V546L450 575Z" fill="#7F9375" />
+  <path d="M157 412L443 525L473 508L187 395Z" fill="#DFDFCA" />
+  <!-- Potted olive tree. -->
+  <path d="M408 433L442 446L438 479Q423 486 412 468Z" fill="url(#pot)" />
+  <ellipse
+    cx="425"
+    cy="440"
+    rx="18"
+    ry="8"
+    transform="rotate(20 425 440)"
+    fill="#B8B18F"
+  />
+  <ellipse
+    cx="425"
+    cy="440"
+    rx="14"
+    ry="5"
+    transform="rotate(20 425 440)"
+    fill="#6E7754"
+  />
+  <path
+    d="M426 440L431 340M429 403L406 376M431 380L449 363M431 357L415 339"
+    stroke="#7B7957"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+  <g fill="#698456">
+    <ellipse cx="413" cy="340" rx="13" ry="6" transform="rotate(40 413 340)" />
+    <ellipse cx="438" cy="334" rx="16" ry="7" transform="rotate(-52 438 334)" />
+    <ellipse cx="443" cy="352" rx="18" ry="7" transform="rotate(-22 443 352)" />
+    <ellipse cx="408" cy="365" rx="16" ry="7" transform="rotate(31 408 365)" />
+    <ellipse cx="448" cy="371" rx="15" ry="6" transform="rotate(-38 448 371)" />
+    <ellipse cx="417" cy="391" rx="16" ry="6" transform="rotate(38 417 391)" />
+  </g>
+  <g fill="#98AC73">
+    <ellipse cx="430" cy="350" rx="15" ry="7" transform="rotate(40 430 350)" />
+    <ellipse cx="423" cy="372" rx="15" ry="7" transform="rotate(-38 423 372)" />
+    <ellipse cx="443" cy="395" rx="17" ry="7" transform="rotate(-43 443 395)" />
+    <ellipse cx="423" cy="324" rx="13" ry="6" transform="rotate(65 423 324)" />
+  </g>
+  <!-- Balcony rail. -->
+  <path
+    d="M137 363V439M444 485V562M491 458V535M137 363L444 485L491 458"
+    stroke="#6F8061"
+    stroke-width="5"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M164 374V451M421 476V552M462 476V550M478 468V541"
+    stroke="#93A07F"
+    stroke-width="2"
+  />
+  <path d="M137 388L444 510L491 483" stroke="#839473" stroke-width="3" />
+  <!-- Balcony-mounted panel uses an affine transform to echo the model's perspective. -->
+  <g transform="matrix(1 .395 -.19 .91 177 381)">
+    <rect x="-4" y="-4" width="246" height="108" fill="#465D46" />
+    <rect width="238" height="100" fill="#93A78F" />
+    <rect x="3" y="3" width="232" height="94" fill="url(#solarCells)" />
+    <path d="M0 0H238V100" stroke="#CBD4B9" stroke-width="2" />
+    <path d="M0 100V0" stroke="#6E886B" stroke-width="2" />
+  </g>
+  <path d="M160 547L224 573" stroke="#A6B795" stroke-width="1" />
+  <circle cx="153" cy="544" r="3" fill="#8FA97A" />
+</svg>

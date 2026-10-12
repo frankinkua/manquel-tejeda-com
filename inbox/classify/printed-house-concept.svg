@@ -1,0 +1,71 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="640"
+  height="360"
+  viewBox="0 0 640 360"
+  fill="none"
+>
+  <defs>
+    <pattern id="layers" width="8" height="7" patternUnits="userSpaceOnUse">
+      <rect width="8" height="7" fill="#CCC5B2" />
+      <path d="M0 5.5H8" stroke="#A49C86" stroke-width="1.2" />
+    </pattern>
+    <pattern id="sideLayers" width="8" height="7" patternUnits="userSpaceOnUse">
+      <rect width="8" height="7" fill="#A8AD92" />
+      <path d="M0 5.5H8" stroke="#7E8E72" stroke-width="1.1" />
+    </pattern>
+    <filter id="shadow"><feGaussianBlur stdDeviation="8" /></filter>
+  </defs>
+  <ellipse
+    cx="328"
+    cy="279"
+    rx="196"
+    ry="22"
+    fill="#8B856733"
+    filter="url(#shadow)"
+  />
+  <path d="M111 256L300 164L511 249L322 338Z" fill="#CECBB7" />
+  <path d="M111 256V262L322 344V338Z" fill="#B5B79E" />
+  <path d="M322 338L511 249V255L322 344Z" fill="#A0AB90" />
+  <g transform="matrix(1 .39 0 1 190 145)">
+    <rect width="165" height="113" fill="url(#layers)" />
+    <rect x="23" y="45" width="40" height="68" fill="#566D54" />
+    <rect x="32" y="50" width="27" height="63" fill="#87987A" />
+    <rect x="88" y="38" width="51" height="42" fill="#617659" />
+    <rect x="93" y="43" width="41" height="32" fill="#B5C0A0" />
+    <path d="M114 43V75" stroke="#617659" stroke-width="3" />
+    <circle cx="52" cy="86" r="2" fill="#E2DCC8" />
+  </g>
+  <g transform="matrix(1 -.48 0 1 355 209)">
+    <rect width="110" height="113" fill="url(#sideLayers)" />
+    <rect x="28" y="38" width="45" height="40" fill="#58724E" />
+    <rect x="33" y="43" width="35" height="30" fill="#A6B697" />
+  </g>
+  <path d="M190 145L300 93L465 157L355 209Z" fill="#E2DCCA" />
+  <path d="M207 147L300 104L446 160L354 202Z" fill="#B9B8A0" />
+  <path d="M224 151L300 117L427 164L353 197Z" fill="#D7D1BC" />
+  <!-- Illustrative construction printer gantry. -->
+  <path
+    d="M139 252V111L285 41L499 125V270"
+    stroke="#557057"
+    stroke-width="9"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M139 111L354 195L499 125M354 195V327"
+    stroke="#7E9373"
+    stroke-width="8"
+    stroke-linejoin="round"
+  />
+  <path d="M149 101L361 183L489 122" stroke="#B2BE9B" stroke-width="2" />
+  <path d="M241 64L451 147" stroke="#3B5A43" stroke-width="8" />
+  <path d="M284 82L320 96L311 119L275 105Z" fill="#C8D5A6" />
+  <path d="M290 108V144" stroke="#5D7555" stroke-width="9" />
+  <path d="M284 140H296L293 153H287Z" fill="#7C8C66" />
+  <path
+    d="M129 254L149 262M344 329L364 337M489 272L509 280"
+    stroke="#3A5942"
+    stroke-width="9"
+    stroke-linecap="round"
+  />
+</svg>
