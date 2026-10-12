@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "task_id": "r19",
+  "subject": "Manquel Tejeda",
+  "topic": "Conference and pitch documents",
+  "retrieved_at": "2026-10-12",
+  "items": [
+    {
+      "id": "manquel-connectpreneur-march-2024",
+      "type": "document",
+      "title": "CONNECTpreneur March 2024 programme",
+      "canonical_url": "https://connectpreneur.org/wp-content/uploads/2024/07/bicp_2024_mar_2.pdf",
+      "publisher": "CONNECTpreneur",
+      "published_at": "2024-03-28",
+      "language": "en",
+      "identity_evidence": "Page 26 lists Manquel Tejeda as Co-Founder 1A Robotics.",
+      "supported_claim": "Co-Founder of 1A Robotics as of March 2024.",
+      "evidence_locator": "Page 26 (PDF internal index 25)",
+      "tags": ["entrepreneurship", "robotics"],
+      "related_project": "1A Robotics",
+      "confidence": "high, document is published by CONNECTpreneur and explicitly names him as a co-founder.",
+      "verification_status": "verified",
+      "rights_status": "reference_only",
+      "rights_evidence_url": "https://connectpreneur.org/wp-content/uploads/2024/07/bicp_2024_mar_2.pdf",
+      "local_path": null,
+      "duplicate_of": null
+    }
+  ]
+}
