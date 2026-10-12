@@ -1,0 +1,47 @@
+[
+  {
+    "query": "curl -s \"http://archive.org/wayback/available?url=https://medium.com/frankfurtvalley/meet-a-founder-manquel-tejeda-237bc4fca36f\"",
+    "url": "https://medium.com/frankfurtvalley/meet-a-founder-manquel-tejeda-237bc4fca36f",
+    "outcome": "verified",
+    "reason": "Retrieved archived text of founder interview since original article was blocking access.",
+    "tool_limitations": "Medium was returning HTTP 403 Forbidden on curl/python requests.",
+    "reviewed_at": "2026-10-12T06:54:33Z",
+    "access_time": null
+  },
+  {
+    "query": "\"Hope Printer\" site:hopeprinter.com via Wayback Machine",
+    "url": "https://web.archive.org/web/20240419190628/https://www.hopeprinter.com/",
+    "outcome": "verified",
+    "reason": "Found original project website via Wayback Machine after identifying hopeprinter.com from article and search queries.",
+    "tool_limitations": "Live site was down or redirecting, resolved via archive.org.",
+    "reviewed_at": "2026-10-12T06:54:33Z",
+    "access_time": null
+  },
+  {
+    "query": "Extract YouTube embeds from archived Hope Printer website",
+    "url": "https://www.youtube.com/watch?v=DpKpjNnoWgQ",
+    "outcome": "metadata_verified_content_unverified",
+    "reason": "Discovered via archived iframe; oEmbed title/channel metadata matched, but actual playback/content was not verified.",
+    "tool_limitations": "Playback not checked.",
+    "reviewed_at": "2026-10-12T06:54:33Z",
+    "access_time": null
+  },
+  {
+    "query": "Extract YouTube embeds from archived Hope Printer website",
+    "url": "https://www.youtube.com/watch?v=vum5rwjZRiY",
+    "outcome": "metadata_verified_content_unverified",
+    "reason": "Discovered via archived iframe; oEmbed title/channel metadata matched, but actual playback/content was not verified.",
+    "tool_limitations": "Playback not checked.",
+    "reviewed_at": "2026-10-12T06:54:33Z",
+    "access_time": null
+  },
+  {
+    "query": "Extract YouTube embeds from archived Hope Printer website",
+    "url": "https://www.youtube.com/watch?v=HkoEzTKXuEM",
+    "outcome": "metadata_verified_content_unverified",
+    "reason": "Discovered via archived iframe; oEmbed title/channel metadata matched, but actual playback/content was not verified.",
+    "tool_limitations": "Playback not checked.",
+    "reviewed_at": "2026-10-12T06:54:33Z",
+    "access_time": null
+  }
+]
