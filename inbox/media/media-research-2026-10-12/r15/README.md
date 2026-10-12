@@ -32,4 +32,4 @@ git diff --check
 * No explicit press kits or public domain / creative commons licenses were stated on the Hope Printer website or the corresponding YouTube channel.
 * Local media assets (videos and images) could not be downloaded. Reference links are preserved.
 * The original project site domain appears abandoned, so Wayback Machine links are needed to recover historical evidence.
-* Video playback and channel identity were partially verified via oEmbed metadata; actual video content could not be verified due to playback restrictions/throttling.
+* Video title/channel metadata were verified via oEmbed; playback/content were not verified.
