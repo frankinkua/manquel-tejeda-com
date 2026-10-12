@@ -1,0 +1,32 @@
+[
+  {
+    "query": "\"Manquel Tejeda\" interview",
+    "tool": "DuckDuckGo HTML / Lite",
+    "url": "https://lite.duckduckgo.com/lite/",
+    "accessed_at": "2026-10-12T10:00:00Z",
+    "outcome": "accessible_html",
+    "rejected_leads": [],
+    "verified_leads": ["ichi.pro translations of Frankfurt Valley interview", "LinkedIn post about FOX 11 Los Angeles (KTTV) feature"],
+    "limitations": "Standard web endpoints blocked via CAPTCHA. Lite version required for automated search scraping."
+  },
+  {
+    "query": "\"Manquel Tejeda\" \"Hope Printer\"",
+    "tool": "DuckDuckGo HTML / Lite",
+    "url": "https://lite.duckduckgo.com/lite/",
+    "accessed_at": "2026-10-12T10:05:00Z",
+    "outcome": "accessible_html",
+    "rejected_leads": [],
+    "verified_leads": ["Twitter snippet referencing a postgraduate talk at Universidad de Chile (uchile) with Matias Devia"],
+    "limitations": "Twitter/X deep link inaccessible due to platform automated request blocking."
+  },
+  {
+    "query": "https://vimeo.com/user16671571",
+    "tool": "cURL / grep",
+    "url": "https://vimeo.com/user16671571",
+    "accessed_at": "2026-10-12T10:10:00Z",
+    "outcome": "accessible_html",
+    "rejected_leads": ["No specific public videos found on the main profile HTML"],
+    "verified_leads": ["Confirmed profile identity for Manquel Tejeda Int"],
+    "limitations": "Deep video scraping not feasible without API key; relying on public profile existence."
+  }
+]
