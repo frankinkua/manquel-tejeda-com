@@ -1,0 +1,58 @@
+[
+  {
+    "tool": "google_search",
+    "query": "\"Manquel Tejeda\" \"CONNECTpreneur\" pdf",
+    "url": "https://www.google.com/search?q=%22Manquel+Tejeda%22+%22CONNECTpreneur%22+pdf",
+    "access_time": "2026-10-12T06:55:12Z",
+    "outcome": "blocked",
+    "rejection_reason": "No useful results matching the specific person and event pdf. No new pdfs found."
+  },
+  {
+    "tool": "google_search",
+    "query": "\"1A Robotics\" \"CONNECTpreneur\" pdf",
+    "url": "https://www.google.com/search?q=%221A+Robotics%22+%22CONNECTpreneur%22+pdf",
+    "access_time": "2026-10-12T06:56:45Z",
+    "outcome": "blocked",
+    "rejection_reason": "No useful results matching the specific company and event pdf. No new pdfs found."
+  },
+  {
+    "tool": "google_search",
+    "query": "\"1A Robotics\" CONNECTpreneur site:youtube.com",
+    "url": "https://www.google.com/search?q=%221A+Robotics%22+CONNECTpreneur+site%3Ayoutube.com",
+    "access_time": "2026-10-12T06:57:33Z",
+    "outcome": "unavailable",
+    "rejection_reason": "No useful results found on YouTube. The event's video pitches might not be publicly indexed."
+  },
+  {
+    "tool": "google_search",
+    "query": "CONNECTpreneur \"Manquel Tejeda\" site:youtube.com",
+    "url": "https://www.google.com/search?q=CONNECTpreneur+%22Manquel+Tejeda%22+site%3Ayoutube.com",
+    "access_time": "2026-10-12T06:58:21Z",
+    "outcome": "unavailable",
+    "rejection_reason": "No useful results found on YouTube. Name not found in any indexed YouTube metadata."
+  },
+  {
+    "tool": "google_search",
+    "query": "\"Manquel Tejeda\" \"1A Robotics\"",
+    "url": "https://www.google.com/search?q=%22Manquel+Tejeda%22+%221A+Robotics%22",
+    "access_time": "2026-10-12T06:59:15Z",
+    "outcome": "blocked",
+    "rejection_reason": "No significant external news or media mapping these entities together beyond the known program."
+  },
+  {
+    "tool": "wayback_machine",
+    "query": "connectpreneur.org/event/*",
+    "url": "http://web.archive.org/cdx/search/cdx?url=connectpreneur.org/event/*&output=json&limit=50&filter=statuscode:200",
+    "access_time": "2026-10-12T07:00:10Z",
+    "outcome": "unavailable",
+    "rejection_reason": "Virtual event pages or recordings for the March 28 2024 pitch were not clearly indexed or accessible with media."
+  },
+  {
+    "tool": "wget",
+    "query": "downloading connectpreneur.pdf",
+    "url": "https://connectpreneur.org/wp-content/uploads/2024/07/bicp_2024_mar_2.pdf",
+    "access_time": "2026-10-12T07:01:25Z",
+    "outcome": "verified",
+    "rejection_reason": "None. Document was downloaded and verified for identity anchors."
+  }
+]
