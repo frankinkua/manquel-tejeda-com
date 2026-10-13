@@ -48,6 +48,9 @@ if (typeof document !== "undefined") {
       if (write && location.hash !== hash) history[push ? "pushState" : "replaceState"](null, "", hash);
     };
     search.addEventListener("input", () => { state.query = search.value.slice(0, 120); render(true); });
+    search.addEventListener("keydown", event => {
+      if (event.key === "Escape" && search.value) { search.value = ""; state.query = ""; render(true); }
+    });
     filters.forEach(button => button.addEventListener("click", () => { state.filter = button.dataset.filter; render(true, true); }));
     shortcuts.forEach(button => button.addEventListener("click", () => {
       state = { query: button.dataset.projectQuery, filter: "all" };
