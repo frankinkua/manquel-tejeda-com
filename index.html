@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="media.css" />
     <script src="site.js" defer></script>
     <script src="media.js" defer></script>
+    <link rel="stylesheet" href="assets/explorer.css" />
+    <script src="assets/explorer.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -268,6 +270,11 @@
               He studied at Goethe University Frankfurt, Universidad Complutense
               de Madrid, and Universidad de Concepción.
             </p>
+            <ol class="venture-timeline" aria-label="Selected milestones and their sources">
+              <li><time datetime="2000">2000</time><div><strong>A first venture.</strong><p>Goethe University incubator, as recalled in the 2021 founder interview.</p><a href="https://medium.com/frankfurtvalley/meet-a-founder-manquel-tejeda-237bc4fca36f">Founder’s account ↗</a></div></li>
+              <li><time datetime="2021">2021</time><div><strong>A different way to build.</strong><p>Hope Printer’s early development story: robotics and the idea of more accessible housing.</p><a href="https://medium.com/frankfurtvalley/meet-a-founder-manquel-tejeda-237bc4fca36f">Read the interview ↗</a></div></li>
+              <li><time datetime="2024-03">2024</time><div><strong>Part of the robotics ecosystem.</strong><p>Listed as a co-founder of 1A Robotics in a CONNECTpreneur event programme.</p><a href="https://connectpreneur.org/wp-content/uploads/2024/07/bicp_2024_mar_2.pdf">March programme · page 26 ↗</a></div></li>
+            </ol>
             <a
               class="text-link"
               href="https://medium.com/frankfurtvalley/meet-a-founder-manquel-tejeda-237bc4fca36f"
@@ -336,12 +343,19 @@
             profiles and project references.
           </p>
         </div>
+        <div class="project-shortcuts" role="group" aria-label="Explore by project">
+          <button type="button" data-project-query="Hope Printer" aria-pressed="false"><small>01 / Housing & 3D printing</small><strong>Hope Printer ↗</strong></button>
+          <button type="button" data-project-query="EnergyFromYourBalcony" aria-pressed="false"><small>02 / Everyday energy</small><strong>EnergyFromYourBalcony ↗</strong></button>
+          <button type="button" data-project-query="1A Robotics" aria-pressed="false"><small>03 / Robotics ecosystem</small><strong>1A Robotics ↗</strong></button>
+          <button type="button" data-project-query="MedTech" aria-pressed="false"><small>04 / Professional profile</small><strong>MedTech ↗</strong></button>
+        </div>
         <div class="media-tools">
           <label for="media-search"
             >Find a topic
             <input
               id="media-search"
               type="search"
+              maxlength="120"
               placeholder="Try: solar, robotics, founder…"
               autocomplete="off"
           /></label>
@@ -354,10 +368,10 @@
             </button>
           </div>
         </div>
-        <p class="result-count" role="status" aria-live="polite"></p>
-        <div class="media-grid">
+        <div class="explorer-status"><p class="result-count" role="status" aria-live="polite"></p><div class="explorer-actions"><button type="button" data-media-reset>Reset filters</button><a href="#media" data-media-permalink>Link to this view ↗</a></div></div>
+        <div class="media-grid media-grid-pairs">
           <article
-            class="media-card"
+            class="media-card" data-media-id="manquel-hope-printer-photo" data-keywords="Hope Printer housing 3D printing vivienda"
             data-tags="portrait press robotics entrepreneurship"
           >
             <a
@@ -383,7 +397,7 @@
               >
             </div>
           </article>
-          <article class="media-card" data-tags="energy entrepreneurship">
+          <article class="media-card" data-media-id="manquel-energy" data-keywords="EnergyFromYourBalcony balcony solar Balkonkraftwerk" data-tags="energy entrepreneurship">
             <a
               class="media-cover energy-cover"
               href="https://de.linkedin.com/in/manquel-tejeda-b42b39119"
@@ -404,7 +418,7 @@
             </div>
           </article>
           <article
-            class="media-card"
+            class="media-card" data-media-id="manquel-robotics" data-keywords="1A Robotics CONNECTpreneur"
             data-tags="robotics medtech entrepreneurship"
           >
             <a
@@ -426,7 +440,12 @@
               <span class="media-tags">Robotics · Entrepreneurship</span>
             </div>
           </article>
+          <article class="media-card" data-media-id="manquel-medtech" data-keywords="MedTech medical technology tecnología médica professional profile" data-tags="medtech entrepreneurship">
+            <a class="media-cover robotics-cover" href="https://de.linkedin.com/in/manquel-tejeda-86104738"><span>PROFESSIONAL PROFILE / MEDTECH</span><strong>Technology.<br /><em>Human possibility.</em></strong><span>EXPLORE THE PROFESSIONAL PROFILE ↗</span></a>
+            <div><p class="eyebrow">Professional background</p><h3>Across disciplines.</h3><p>A public profile for Manquel’s robotics and MedTech background. Connect directly for current projects and collaboration.</p><span class="media-tags">MedTech · Entrepreneurship</span></div>
+          </article>
         </div>
+        <p data-source-note>Open “Source & context” on each item to see where it comes from.</p>
         <p class="no-results" hidden>
           No matching items. Try “energy”, “robotics” or “portrait”.
         </p>
