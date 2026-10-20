@@ -97,6 +97,7 @@
       "identity_evidence": "Owner-supplied file explicitly depicting the site subject; consistent with other owner-supplied portraits.",
       "published_at": "2025",
       "retrieved_at": "2026-10-12",
+      "sha256": "a617736bb269d42ea22e203170bf2d2f7990a1d46ab5908fced61fe8894c39ae",
       "tags": [
         "portrait"
       ],
@@ -113,6 +114,7 @@
       "rights_evidence": "Owner (Hope Printer co-founder) confirmed 2026-10-12 that he holds the rights and agrees to publication on this site. Two additional team members appear; remove or crop on request.",
       "identity_evidence": "Owner-supplied project photo; Hope Printer logo appears as corner overlay; subject identifiable consistent with portraits.",
       "retrieved_at": "2026-10-12",
+      "sha256": "d1fc048f09bd6cfab4fe1e1d7a0bd1730106037b2410d0ba1c3f6910fe91048a",
       "tags": [
         "portrait",
         "robotics",

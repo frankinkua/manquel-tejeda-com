@@ -23,7 +23,7 @@ test("local references and fragment targets resolve", () => {
 
 test("document has accessible landmarks and correct identity", () => {
   assert.equal((html.match(/<h1\b/g) || []).length, 1);
-  assert.match(html, /<html lang="en">/);
+  assert.match(html, /<html lang="(?:de|en)">/);
   assert.match(html, /<main id="main" tabindex="-1">/);
   assert.match(html, /aria-controls="navigation"/);
   assert.match(html, /<dialog[^>]*aria-labelledby="sources-title"/);

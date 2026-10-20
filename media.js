@@ -91,7 +91,9 @@ if (typeof document !== "undefined") {
         status.textContent =
           document.documentElement.lang === "es"
             ? count + " de " + cards.length + " medios"
-            : count + " of " + cards.length + " items";
+            : document.documentElement.lang === "de"
+              ? count + " von " + cards.length + " Einträgen"
+              : count + " of " + cards.length + " items";
       if (empty) empty.hidden = count !== 0;
     };
     search.addEventListener("input", render);

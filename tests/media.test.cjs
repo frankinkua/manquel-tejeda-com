@@ -53,14 +53,18 @@ test("catalogue preserves evidence, rights and exact local media checksums", () 
     assert.ok(
       item.identity_evidence && item.rights_evidence && item.tags.length,
     );
-    assert.match(item.retrieved_at, /^2026-10-11$/);
+    assert.match(item.retrieved_at, /^2026-10-(?:11|12)$/);
     if (item.source_url) {
       assert.equal(new URL(item.source_url).protocol, "https:");
       assert.ok(!urls.has(item.source_url), "duplicate canonical source");
       urls.add(item.source_url);
     }
     if (item.local_path) {
-      assert.ok(["user_supplied", "licensed"].includes(item.rights_status));
+      assert.ok(
+        ["user_supplied", "owner_supplied", "licensed"].includes(
+          item.rights_status,
+        ),
+      );
       assert.ok(
         !path.isAbsolute(item.local_path) &&
           !item.local_path.split("/").includes(".."),
