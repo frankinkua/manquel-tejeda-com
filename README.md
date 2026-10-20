@@ -33,6 +33,7 @@ canonical domain configured yet.
 
 ## Verification
 
+
 ```sh
 node --check site.js
 node --test tests/site.test.cjs
@@ -61,3 +62,7 @@ DM Sans and Instrument Serif, with their SIL Open Font License files in
 - [LinkedIn — EnergyFromYourBalcony](https://de.linkedin.com/in/manquel-tejeda-b42b39119)
 - [LinkedIn — Robotics and MedTech](https://de.linkedin.com/in/manquel-tejeda-86104738)
 - [Frankfurt Valley — Meet a Founder](https://medium.com/frankfurtvalley/meet-a-founder-manquel-tejeda-237bc4fca36f)
+
+## Project discovery update
+
+The source-linked timeline adds selected 2000, 2021 and 2024 milestones without claiming current product availability. Distinct venture shortcuts, shareable filters and readable source details use the existing approved catalogue, not Jules research drafts.
